@@ -1,0 +1,19 @@
+{
+  "name": "joy-of-generators",
+  "version": "0.0.0",
+  "description": "joy-of-generators =================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marxian/joy-of-generators.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marxian/joy-of-generators/issues"
+  },
+  "homepage": "https://github.com/marxian/joy-of-generators"
+}
