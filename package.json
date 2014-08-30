@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/marxian/joy-of-generators/issues"
   },
-  "homepage": "https://github.com/marxian/joy-of-generators"
+  "homepage": "https://github.com/marxian/joy-of-generators",
+  "dependencies": {
+    "bluebird": "^2.3.2",
+    "co": "^3.1.0",
+    "geocoder": "^0.2.0",
+    "koa": "^0.10.0",
+    "request": "^2.40.0",
+    "thunkify": "^2.1.2"
+  }
 }

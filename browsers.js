@@ -1,4 +1,3 @@
-
 /*
 	Browsers?
 
@@ -8,6 +7,8 @@
 	
 	Not Webkit, Safari or IE
 
-	Supported by the traceur compiler...
+	See also:
+		* traceur (http://google.github.io/traceur-compiler)
+		* regenerator (http://facebook.github.io/regenerator)
 
  */

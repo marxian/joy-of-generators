@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"re",
+				"require"
+			],
+			[
 				"de",
 				"departure_city"
 			],
@@ -31,7 +35,7 @@
 			"file": "intro.js",
 			"settings":
 			{
-				"buffer_size": 199,
+				"buffer_size": 276,
 				"line_ending": "Unix"
 			}
 		},
@@ -39,7 +43,7 @@
 			"file": "browsers.js",
 			"settings":
 			{
-				"buffer_size": 129,
+				"buffer_size": 212,
 				"line_ending": "Unix"
 			}
 		},
@@ -47,7 +51,7 @@
 			"file": "anatomy.js",
 			"settings":
 			{
-				"buffer_size": 177,
+				"buffer_size": 162,
 				"line_ending": "Unix"
 			}
 		},
@@ -55,15 +59,49 @@
 			"file": "infinity.js",
 			"settings":
 			{
-				"buffer_size": 277,
+				"buffer_size": 279,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "nexty.js",
+			"file": "hungry.js",
 			"settings":
 			{
-				"buffer_size": 149,
+				"buffer_size": 241,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "error_prone.js",
+			"settings":
+			{
+				"buffer_size": 323,
+				"line_ending": "Unix",
+				"name": "/*"
+			}
+		},
+		{
+			"file": "recap.js",
+			"settings":
+			{
+				"buffer_size": 167,
+				"line_ending": "Unix",
+				"name": "/*"
+			}
+		},
+		{
+			"file": "loos_cb.js",
+			"settings":
+			{
+				"buffer_size": 905,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "smoother.js",
+			"settings":
+			{
+				"buffer_size": 527,
 				"line_ending": "Unix"
 			}
 		}
@@ -71,15 +109,19 @@
 	"build_system": "Packages/User/Node-11.sublime-build",
 	"command_palette":
 	{
-		"height": 75.0,
+		"height": 217.0,
 		"selected_items":
 		[
 			[
-				"Package Control: in",
+				"insta",
 				"Package Control: Install Package"
 			],
 			[
 				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: in",
 				"Package Control: Install Package"
 			],
 			[
@@ -91,7 +133,7 @@
 				"View: Toggle Menu"
 			]
 		],
-		"width": 467.0
+		"width": 453.0
 	},
 	"console":
 	{
@@ -109,8 +151,18 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/rupert/public_html/joy-of-generators"
+	],
 	"file_history":
 	[
+		"/home/rupert/public_html/joy-of-generators/package.json",
+		"/home/rupert/public_html/joy-of-generators/.gitignore",
+		"/home/rupert/public_html/joy-of-generators/geocoder.js",
+		"/home/rupert/public_html/joy-of-generators/gbptm.js",
+		"/home/rupert/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/rupert/.config/sublime-text-3/Packages/User/Node-11.sublime-build",
 		"/home/rupert/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
 		"/home/rupert/public_html/joy-of-generators/intro.js",
 		"/home/rupert/public_html/joy-of-generators/browsers.js",
@@ -124,7 +176,6 @@
 		"/tmp/tmp9muri3.txt",
 		"/home/rupert/public_html/joy-of-generators/intro.pres",
 		"/home/rupert/.config/sublime-text-3/Packages/ASCIIPresentation/ASCIIPresentation.sublime-settings",
-		"/home/rupert/.config/sublime-text-3/Packages/User/Node-11.sublime-build",
 		"/home/rupert/.config/sublime-text-3/Packages/User/Node.sublime-build",
 		"/home/rupert/public_html/joy-of-generators/joy-of-generators.sublime-project",
 		"/home/rupert/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
@@ -218,6 +269,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"coded",
 			"TenantPropertyUserEmail",
 			"TenantPropertyUserEmailAlreadyUsed",
 			"MobileUserEmployeeIdAlreadyUsedException",
@@ -255,7 +307,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -264,15 +316,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 199,
+						"buffer_size": 276,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1,
-								1
+								0,
+								0
 							]
 						],
 						"settings":
@@ -283,7 +335,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -292,15 +344,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 129,
+						"buffer_size": 212,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								44,
-								44
+								0,
+								0
 							]
 						],
 						"settings":
@@ -320,15 +372,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 177,
+						"buffer_size": 162,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1,
-								1
+								0,
+								0
 							]
 						],
 						"settings":
@@ -348,20 +400,22 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 277,
+						"buffer_size": 279,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1,
-								1
+								184,
+								184
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -372,19 +426,133 @@
 				},
 				{
 					"buffer": 4,
-					"file": "nexty.js",
+					"file": "hungry.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 149,
+						"buffer_size": 241,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1,
-								1
+								63,
+								63
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "error_prone.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 323,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								83,
+								83
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/*",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "recap.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 167,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								51,
+								51
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/*",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "loos_cb.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 905,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								679,
+								679
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "smoother.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 527,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								185,
+								185
 							]
 						],
 						"settings":
@@ -434,7 +602,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 220.0
+		"height": 125.0
 	},
 	"output.figlet_preview":
 	{
@@ -474,14 +642,15 @@
 		],
 		"width": 0.0
 	},
+	"selected_group": 0,
 	"settings":
 	{
 	},
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
-	"side_bar_width": 245.0,
+	"side_bar_visible": true,
+	"side_bar_width": 255.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
