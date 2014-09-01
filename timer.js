@@ -20,14 +20,12 @@ app.use(function *(){
 		loos = yield coords.map(function(lonlat) {
 		 	return p.gbptm(lonlat);
 		});
-
 	postcodes.forEach(function(pc, i) {
 		results[pc] = {
 			coords: coords[i],
 			loos: loos[i].length
 		};
 	});
-
 	this.body = results;
 });
 
