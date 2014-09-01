@@ -6,7 +6,7 @@
 
 
 	* You'll need an unstable release of node.js
-	* You'll need to run it with --harmony-generators
+	* You'll need to run it with --harmony
 
 
 	

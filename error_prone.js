@@ -8,7 +8,7 @@ var jenny = (function* errorProne() {
 			vals.push(yield null);
 			console.log('You said "' + vals.join(' ') + '\"');
 		} catch(e) {
-			console.log("You're a " + e.message);
+			console.error("You're a " + e.message);
 		}
 	}
 })();

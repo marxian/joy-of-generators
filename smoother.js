@@ -1,17 +1,18 @@
 var co  = require('co'),
 	promisify = require('bluebird').promisify,
-	gbptm = promisify(require('./gbptm').near),
-	geocode = promisify(require('./geocoder'));
+	thunkify = require('thunkify'),
+	gbptm = promisify(require('./gbptm')),
+	geocode = thunkify(require('./geocoder'));
 
 co(function* (postcodes) {
-	var results = {};
-	var coords = yield postcodes.map(function(pc) {
-		return geocode(pc);
-	});
-	var loos = yield coords.map(function(lonlat) {
-	 	return gbptm(lonlat);
-	});
-	
+	var results = {},
+		coords = yield postcodes.map(function(pc) {
+			return geocode(pc);
+		}),
+		loos = yield coords.map(function(lonlat) {
+		 	return gbptm(lonlat);
+		});
+
 	postcodes.forEach(function(pc, i) {
 		results[pc] = {
 			coords: coords[i],
