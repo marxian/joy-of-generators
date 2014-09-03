@@ -10,7 +10,7 @@
 			* mapit (http://mapit.mysociety.org)
 			* Great British Public Toilet Map (http://gbptm-ui-stage.herokuapp.com)
 			
-			@rupert_redington
+			@rupertredington
 			rupert@neontribe.co.uk
 			http://github.com/marxian/joy-of-generators
 		 */
