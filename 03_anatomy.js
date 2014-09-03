@@ -9,4 +9,12 @@
 			
 		 */
 
-		function* jenny() {}
+		function* jenny() {
+			yield 'foo';
+			yield 'bar';
+		}
+
+		var gen = jenny();
+		console.log(gen.next());
+		console.log(gen.next());
+		console.log(gen.next());
