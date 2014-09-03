@@ -1,8 +1,8 @@
 {
   "name": "joy-of-generators",
-  "version": "0.0.0",
-  "description": "joy-of-generators =================",
-  "main": "index.js",
+  "version": "1.0.0",
+  "description": "A talk on ES6 generators",
+  "main": "01_intro.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,7 +19,6 @@
   "dependencies": {
     "bluebird": "^2.3.2",
     "co": "^3.1.0",
-    "geocoder": "^0.2.0",
     "koa": "^0.10.0",
     "request": "^2.40.0",
     "thunkify": "^2.1.2"
